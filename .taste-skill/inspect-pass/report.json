@@ -1,0 +1,2561 @@
+{
+ "url": "http://localhost:3000/",
+ "at": "2026-10-18T04:38:02.997Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 10,
+   "filled": [
+    0.29,
+    0.29,
+    0.29,
+    0.29,
+    0.29,
+    0.29,
+    0.29,
+    0.29,
+    0.29,
+    0.29
+   ],
+   "motion": {
+    "elements": 32,
+    "css": 13,
+    "transitions": 19,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 8662,
+     "screens": 9.6,
+     "words": 1011,
+     "img": 30,
+     "video": 0,
+     "canvas": 1,
+     "svg": 19,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 18,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "hero-renaissance.jpg",
+      "about-renaissance.jpg",
+      "owner.jpg",
+      "portico.webp",
+      "Certificate%20LDBI.webp",
+      "Sertifikat_ITK.webp",
+      "Sertifikat_CODELAMP.webp",
+      "Sertip.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "Kevin Mahardika",
+     "words": 2,
+     "chars": 15,
+     "lines": 1,
+     "size": 100.8,
+     "vw": 7,
+     "font": "Playfair Display",
+     "weight": 500,
+     "tracking": -0.025,
+     "leading": 1.04,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "center",
+     "position": "center",
+     "widthRatio": 0.51,
+     "top": 383,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Kevin Mahardika",
+     "words": 2,
+     "lines": 1,
+     "size": 100.8,
+     "font": "Playfair Display"
+    },
+    "headings": [
+     {
+      "text": "Digital Artifacts & Spatial Code.",
+      "words": 5,
+      "chars": 33,
+      "lines": 2,
+      "size": 96,
+      "vw": 6.7,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.59,
+      "top": 177,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Kevin Mahardika",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 100.8,
+      "vw": 7,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 1.04,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.51,
+      "top": 383,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "10",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Inter",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.1,
+      "top": 692,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "3",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Inter",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.1,
+      "top": 692,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "4+",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Inter",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.1,
+      "top": 692,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "About The Creator",
+      "words": 3,
+      "chars": 17,
+      "lines": 1,
+      "size": 72,
+      "vw": 5,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.4,
+      "top": 996,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "“Programming is the architecture of thought made visible and interactive.”",
+      "words": 10,
+      "chars": 74,
+      "lines": 2,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.38,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.5,
+      "top": 1180,
+      "tag": "blockquote",
+      "kind": "statement"
+     },
+     {
+      "text": "Core Capabilities",
+      "words": 2,
+      "chars": 17,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.19,
+      "top": 2021,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Skills & Mastery",
+      "words": 3,
+      "chars": 16,
+      "lines": 2,
+      "size": 72,
+      "vw": 5,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.34,
+      "top": 2607,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "HTML5 & Modern CSS / Tailwind",
+      "words": 6,
+      "chars": 29,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.38,
+      "top": 2655,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "JavaScript & React Ecosystem",
+      "words": 4,
+      "chars": 28,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.34,
+      "top": 3083,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Python Programming",
+      "words": 2,
+      "chars": 18,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.24,
+      "top": 3366,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "PHP & Server Backend",
+      "words": 4,
+      "chars": 20,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.26,
+      "top": 3650,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Cybersecurity Fundamentals",
+      "words": 2,
+      "chars": 26,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.33,
+      "top": 3933,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "UI/UX Design & Prototyping (Figma)",
+      "words": 5,
+      "chars": 34,
+      "lines": 2,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.36,
+      "top": 4217,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Hall of Accolades",
+      "words": 3,
+      "chars": 17,
+      "lines": 2,
+      "size": 72,
+      "vw": 5,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.35,
+      "top": 4692,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Featured Exhibition",
+      "words": 2,
+      "chars": 19,
+      "lines": 1,
+      "size": 72,
+      "vw": 5,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.43,
+      "top": 6279,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Get In Touch",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 72,
+      "vw": 5,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.27,
+      "top": 7376,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Let's collaborate on your next digital reality.",
+      "words": 7,
+      "chars": 47,
+      "lines": 2,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.35,
+      "top": 7559,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Send a Message",
+      "words": 3,
+      "chars": 14,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.44,
+      "top": 7607,
+      "tag": "h4",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 20,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 1,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Inter",
+       "share": 0.74,
+       "mono": false
+      },
+      {
+       "family": "-apple-system",
+       "share": 0.14,
+       "mono": false
+      },
+      {
+       "family": "Playfair Display",
+       "share": 0.11,
+       "mono": false
+      },
+      {
+       "family": "Cormorant Garamond",
+       "share": 0.02,
+       "mono": false
+      },
+      {
+       "family": "Cinzel",
+       "share": 0,
+       "mono": false
+      }
+     ],
+     "familyCount": 5,
+     "sizes": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      19,
+      20,
+      24,
+      30,
+      36,
+      48,
+      72,
+      96,
+      101
+     ],
+     "sizeCount": 15,
+     "notLoaded": [],
+     "body": {
+      "font": "Inter",
+      "size": 16,
+      "leading": 1.63,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 11.8
+     },
+     "measureChars": 84,
+     "max": {
+      "size": 100.8,
+      "vw": 7,
+      "font": "Playfair Display",
+      "text": "Kevin Mahardika"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.03,
+     "centerShare": 0.06,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#c4c3b6",
+     "bodyBgHsl": {
+      "h": 56,
+      "s": 0.11,
+      "l": 0.74
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#c4c3b6",
+       "top": 0,
+       "hsl": {
+        "h": 56,
+        "s": 0.11,
+        "l": 0.74
+       }
+      },
+      {
+       "color": "#09090e",
+       "top": 0,
+       "hsl": {
+        "h": 240,
+        "s": 0.22,
+        "l": 0.05
+       }
+      },
+      {
+       "color": "#b6b5a8",
+       "top": 0,
+       "hsl": {
+        "h": 56,
+        "s": 0.09,
+        "l": 0.69
+       }
+      },
+      {
+       "color": "#a9a89b",
+       "top": 56,
+       "hsl": {
+        "h": 56,
+        "s": 0.08,
+        "l": 0.64
+       }
+      },
+      {
+       "color": "#1a1a21",
+       "top": 2495,
+       "hsl": {
+        "h": 240,
+        "s": 0.12,
+        "l": 0.12
+       }
+      },
+      {
+       "color": "#14141c",
+       "top": 7559,
+       "hsl": {
+        "h": 240,
+        "s": 0.17,
+        "l": 0.09
+       }
+      },
+      {
+       "color": "#07070a",
+       "top": 8303,
+       "hsl": {
+        "h": 240,
+        "s": 0.18,
+        "l": 0.03
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#ffffff",
+       "share": 0.53
+      },
+      {
+       "color": "#000000",
+       "share": 0.46
+      },
+      {
+       "color": "#e7e5e4",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 23,
+     "inHero": 4,
+     "radius": "pill",
+     "height": 36,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 10,
+     "heroLabels": [
+      "Enter",
+      "Get In Touch",
+      "Explore Exhibition",
+      "About Me"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 7,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 6,
+     "boxRadius": 9,
+     "squareMedia": 18,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 6,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 2607
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "bg-image",
+      "ratio": 1
+     },
+     {
+      "type": "canvas",
+      "ratio": 1
+     },
+     {
+      "type": "img",
+      "ratio": 1
+     }
+    ],
+    "nav": {
+     "links": 0,
+     "fixed": true,
+     "height": 97,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "cinzel",
+     "cormorant garamond",
+     "inter",
+     "playfair display",
+     "makcasa"
+    ]
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.32,
+    0.32,
+    0.32,
+    0.32,
+    0.32,
+    0.32,
+    0.32,
+    0.32,
+    0.32,
+    0.32,
+    0.32,
+    0.32
+   ],
+   "motion": {
+    "elements": 17,
+    "css": 8,
+    "transitions": 9,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 13497,
+     "screens": 13.2,
+     "words": 961,
+     "img": 30,
+     "video": 0,
+     "canvas": 1,
+     "svg": 19,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 16,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "hero-renaissance-sm.jpg",
+      "about-renaissance-sm.jpg",
+      "owner.jpg",
+      "Certificate%20LDBI.webp",
+      "Sertifikat_ITK.webp",
+      "Sertifikat_CODELAMP.webp",
+      "Sertip.webp",
+      "Cuplikan%20layar%202026-05-09%20134426.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "Digital Artifacts & Spatial Code.",
+     "words": 5,
+     "chars": 33,
+     "lines": 2,
+     "size": 72,
+     "vw": 9.4,
+     "font": "Playfair Display",
+     "weight": 500,
+     "tracking": -0.025,
+     "leading": 1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.88,
+     "top": 176,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Kevin Mahardika",
+     "words": 2,
+     "lines": 1,
+     "size": 53.8,
+     "font": "Playfair Display"
+    },
+    "headings": [
+     {
+      "text": "Digital Artifacts & Spatial Code.",
+      "words": 5,
+      "chars": 33,
+      "lines": 2,
+      "size": 72,
+      "vw": 9.4,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 176,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Kevin Mahardika",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 53.8,
+      "vw": 7,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 1.04,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.51,
+      "top": 469,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "10",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Inter",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.19,
+      "top": 643,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "3",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Inter",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.19,
+      "top": 643,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "4+",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Inter",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.19,
+      "top": 643,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "About The Creator",
+      "words": 3,
+      "chars": 17,
+      "lines": 2,
+      "size": 72,
+      "vw": 9.4,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.5,
+      "top": 1169,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "“Programming is the architecture of thought made visible and interactive.”",
+      "words": 10,
+      "chars": 74,
+      "lines": 2,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.38,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 1425,
+      "tag": "blockquote",
+      "kind": "statement"
+     },
+     {
+      "text": "Core Capabilities",
+      "words": 2,
+      "chars": 17,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 2853,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Skills & Mastery",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 60,
+      "vw": 7.8,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 3685,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "HTML5 & Modern CSS / Tailwind",
+      "words": 6,
+      "chars": 29,
+      "lines": 2,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.67,
+      "top": 4064,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "JavaScript & React Ecosystem",
+      "words": 4,
+      "chars": 28,
+      "lines": 2,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.63,
+      "top": 4531,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Python Programming",
+      "words": 2,
+      "chars": 18,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.46,
+      "top": 4854,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "PHP & Server Backend",
+      "words": 4,
+      "chars": 20,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.48,
+      "top": 5138,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Cybersecurity Fundamentals",
+      "words": 2,
+      "chars": 26,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.61,
+      "top": 5421,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "UI/UX Design & Prototyping (Figma)",
+      "words": 5,
+      "chars": 34,
+      "lines": 2,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.61,
+      "top": 5705,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Hall of Accolades",
+      "words": 3,
+      "chars": 17,
+      "lines": 2,
+      "size": 72,
+      "vw": 9.4,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.4,
+      "top": 6236,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Featured Exhibition",
+      "words": 2,
+      "chars": 19,
+      "lines": 2,
+      "size": 72,
+      "vw": 9.4,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.51,
+      "top": 8668,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Get In Touch",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 72,
+      "vw": 9.4,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.52,
+      "top": 11504,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Let's collaborate on your next digital reality.",
+      "words": 7,
+      "chars": 47,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 11687,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Send a Message",
+      "words": 3,
+      "chars": 14,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 12353,
+      "tag": "h4",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 20,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 1,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Inter",
+       "share": 0.76,
+       "mono": false
+      },
+      {
+       "family": "-apple-system",
+       "share": 0.12,
+       "mono": false
+      },
+      {
+       "family": "Playfair Display",
+       "share": 0.11,
+       "mono": false
+      },
+      {
+       "family": "Cormorant Garamond",
+       "share": 0.02,
+       "mono": false
+      },
+      {
+       "family": "Cinzel",
+       "share": 0,
+       "mono": false
+      }
+     ],
+     "familyCount": 5,
+     "sizes": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      20,
+      24,
+      30,
+      36,
+      48,
+      54,
+      60,
+      72
+     ],
+     "sizeCount": 14,
+     "notLoaded": [],
+     "body": {
+      "font": "Inter",
+      "size": 16,
+      "leading": 1.63,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 11.8
+     },
+     "measureChars": 84,
+     "max": {
+      "size": 72,
+      "vw": 9.4,
+      "font": "Playfair Display",
+      "text": "Digital Artifacts & Spatial Code."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.02,
+     "centerShare": 0.06,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#c4c3b6",
+     "bodyBgHsl": {
+      "h": 56,
+      "s": 0.11,
+      "l": 0.74
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#c4c3b6",
+       "top": 0,
+       "hsl": {
+        "h": 56,
+        "s": 0.11,
+        "l": 0.74
+       }
+      },
+      {
+       "color": "#09090e",
+       "top": 0,
+       "hsl": {
+        "h": 240,
+        "s": 0.22,
+        "l": 0.05
+       }
+      },
+      {
+       "color": "#b6b5a8",
+       "top": 0,
+       "hsl": {
+        "h": 56,
+        "s": 0.09,
+        "l": 0.69
+       }
+      },
+      {
+       "color": "#a9a89b",
+       "top": 56,
+       "hsl": {
+        "h": 56,
+        "s": 0.08,
+        "l": 0.64
+       }
+      },
+      {
+       "color": "#1a1a21",
+       "top": 3573,
+       "hsl": {
+        "h": 240,
+        "s": 0.12,
+        "l": 0.12
+       }
+      },
+      {
+       "color": "#14141c",
+       "top": 4016,
+       "hsl": {
+        "h": 240,
+        "s": 0.17,
+        "l": 0.09
+       }
+      },
+      {
+       "color": "#07070a",
+       "top": 9028,
+       "hsl": {
+        "h": 240,
+        "s": 0.18,
+        "l": 0.03
+       }
+      },
+      {
+       "color": "#08080b",
+       "top": 9016,
+       "hsl": {
+        "h": 240,
+        "s": 0.16,
+        "l": 0.04
+       }
+      },
+      {
+       "color": "#2b2b30",
+       "top": 9026,
+       "hsl": {
+        "h": 240,
+        "s": 0.05,
+        "l": 0.18
+       }
+      },
+      {
+       "color": "#e7e5e4",
+       "top": 9030,
+       "hsl": {
+        "h": 20,
+        "s": 0.06,
+        "l": 0.9
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#ffffff",
+       "share": 0.54
+      },
+      {
+       "color": "#000000",
+       "share": 0.46
+      },
+      {
+       "color": "#e7e5e4",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 23,
+     "inHero": 4,
+     "radius": "pill",
+     "height": 36,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 10,
+     "heroLabels": [
+      "Enter",
+      "Get In Touch",
+      "Explore Exhibition",
+      "About Me"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 7,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 6,
+     "boxRadius": 9,
+     "squareMedia": 18,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 6,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 4016
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "bg-image",
+      "ratio": 1
+     },
+     {
+      "type": "canvas",
+      "ratio": 1
+     },
+     {
+      "type": "img",
+      "ratio": 1
+     }
+    ],
+    "nav": {
+     "links": 0,
+     "fixed": true,
+     "height": 118,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "cinzel",
+     "cormorant garamond",
+     "inter",
+     "playfair display"
+    ]
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.53,
+    0.53,
+    0.53,
+    0.53,
+    0.53,
+    0.53,
+    0.54,
+    0.53,
+    0.53,
+    0.54,
+    0.55,
+    0.53
+   ],
+   "motion": {
+    "elements": 11,
+    "css": 8,
+    "transitions": 3,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 17045,
+     "screens": 20.2,
+     "words": 940,
+     "img": 30,
+     "video": 0,
+     "canvas": 1,
+     "svg": 19,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 12,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "hero-renaissance-sm.jpg",
+      "about-renaissance-sm.jpg",
+      "owner.jpg",
+      "Certificate%20LDBI.webp",
+      "Sertifikat_ITK.webp",
+      "Sertifikat_CODELAMP.webp",
+      "Sertip.webp",
+      "Cuplikan%20layar%202026-05-09%20134426.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "Kevin Mahardika",
+     "words": 2,
+     "chars": 15,
+     "lines": 2,
+     "size": 50.7,
+     "vw": 13,
+     "font": "Playfair Display",
+     "weight": 500,
+     "tracking": -0.025,
+     "leading": 1.04,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "center",
+     "position": "center",
+     "widthRatio": 0.88,
+     "top": 367,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Kevin Mahardika",
+     "words": 2,
+     "lines": 2,
+     "size": 50.7,
+     "font": "Playfair Display"
+    },
+    "headings": [
+     {
+      "text": "Digital Artifacts & Spatial Code.",
+      "words": 5,
+      "chars": 33,
+      "lines": 2,
+      "size": 48,
+      "vw": 12.3,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 176,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Kevin Mahardika",
+      "words": 2,
+      "chars": 15,
+      "lines": 2,
+      "size": 50.7,
+      "vw": 13,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 1.04,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 367,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "10",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Inter",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.24,
+      "top": 644,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "3",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Inter",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.24,
+      "top": 644,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "4+",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Inter",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.24,
+      "top": 644,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "About The Creator",
+      "words": 3,
+      "chars": 17,
+      "lines": 2,
+      "size": 48,
+      "vw": 12.3,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 1182,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "“Programming is the architecture of thought made visible and interactive.”",
+      "words": 10,
+      "chars": 74,
+      "lines": 3,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.38,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 1453,
+      "tag": "blockquote",
+      "kind": "statement"
+     },
+     {
+      "text": "LDBI & Programming Awards",
+      "words": 4,
+      "chars": 25,
+      "lines": 2,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.33,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.71,
+      "top": 2369,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Core Capabilities",
+      "words": 2,
+      "chars": 17,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.6,
+      "top": 3243,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Full-Stack Engineering",
+      "words": 2,
+      "chars": 22,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Playfair Display",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 3319,
+      "tag": "h4",
+      "kind": "heading"
+     },
+     {
+      "text": "Spatial & UI/UX Design",
+      "words": 4,
+      "chars": 22,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Playfair Display",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 3545,
+      "tag": "h4",
+      "kind": "heading"
+     },
+     {
+      "text": "Cybersecurity Fundamentals",
+      "words": 2,
+      "chars": 26,
+      "lines": 2,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Playfair Display",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 3771,
+      "tag": "h4",
+      "kind": "heading"
+     },
+     {
+      "text": "Vocation & Continuous Learning",
+      "words": 4,
+      "chars": 30,
+      "lines": 2,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Playfair Display",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 4027,
+      "tag": "h4",
+      "kind": "heading"
+     },
+     {
+      "text": "Skills & Mastery",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 48,
+      "vw": 12.3,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 4547,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "HTML5 & Modern CSS / Tailwind",
+      "words": 6,
+      "chars": 29,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.71,
+      "top": 4952,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "JavaScript & React Ecosystem",
+      "words": 4,
+      "chars": 28,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.71,
+      "top": 5538,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Python Programming",
+      "words": 2,
+      "chars": 18,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.71,
+      "top": 5884,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "PHP & Server Backend",
+      "words": 4,
+      "chars": 20,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.71,
+      "top": 6230,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Cybersecurity Fundamentals",
+      "words": 2,
+      "chars": 26,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.71,
+      "top": 6576,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "UI/UX Design & Prototyping (Figma)",
+      "words": 5,
+      "chars": 34,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.71,
+      "top": 6922,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Hall of Accolades",
+      "words": 3,
+      "chars": 17,
+      "lines": 2,
+      "size": 48,
+      "vw": 12.3,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 7482,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Featured Exhibition",
+      "words": 2,
+      "chars": 19,
+      "lines": 2,
+      "size": 48,
+      "vw": 12.3,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 12119,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Get In Touch",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 48,
+      "vw": 12.3,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 14815,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Let's collaborate on your next digital reality.",
+      "words": 7,
+      "chars": 47,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 15015,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Send a Message",
+      "words": 3,
+      "chars": 14,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.71,
+      "top": 15753,
+      "tag": "h4",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 25,
+     "maxLines": 3,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 1,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Inter",
+       "share": 0.75,
+       "mono": false
+      },
+      {
+       "family": "-apple-system",
+       "share": 0.12,
+       "mono": false
+      },
+      {
+       "family": "Playfair Display",
+       "share": 0.11,
+       "mono": false
+      },
+      {
+       "family": "Cormorant Garamond",
+       "share": 0.02,
+       "mono": false
+      },
+      {
+       "family": "Cinzel",
+       "share": 0,
+       "mono": false
+      }
+     ],
+     "familyCount": 5,
+     "sizes": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      20,
+      24,
+      30,
+      36,
+      48,
+      51
+     ],
+     "sizeCount": 12,
+     "notLoaded": [],
+     "body": {
+      "font": "Inter",
+      "size": 16,
+      "leading": 1.63,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 11.8
+     },
+     "measureChars": 43,
+     "max": {
+      "size": 50.7,
+      "vw": 13,
+      "font": "Playfair Display",
+      "text": "Kevin Mahardika"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.02,
+     "centerShare": 0.05,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#c4c3b6",
+     "bodyBgHsl": {
+      "h": 56,
+      "s": 0.11,
+      "l": 0.74
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#c4c3b6",
+       "top": 0,
+       "hsl": {
+        "h": 56,
+        "s": 0.11,
+        "l": 0.74
+       }
+      },
+      {
+       "color": "#09090e",
+       "top": 0,
+       "hsl": {
+        "h": 240,
+        "s": 0.22,
+        "l": 0.05
+       }
+      },
+      {
+       "color": "#b6b5a8",
+       "top": 0,
+       "hsl": {
+        "h": 56,
+        "s": 0.09,
+        "l": 0.69
+       }
+      },
+      {
+       "color": "#07070a",
+       "top": 2667,
+       "hsl": {
+        "h": 240,
+        "s": 0.18,
+        "l": 0.03
+       }
+      },
+      {
+       "color": "#08080b",
+       "top": 2657,
+       "hsl": {
+        "h": 240,
+        "s": 0.16,
+        "l": 0.04
+       }
+      },
+      {
+       "color": "#2b2b30",
+       "top": 2667,
+       "hsl": {
+        "h": 240,
+        "s": 0.05,
+        "l": 0.18
+       }
+      },
+      {
+       "color": "#e7e5e4",
+       "top": 2671,
+       "hsl": {
+        "h": 20,
+        "s": 0.06,
+        "l": 0.9
+       }
+      },
+      {
+       "color": "#595855",
+       "top": 2683,
+       "hsl": {
+        "h": 45,
+        "s": 0.02,
+        "l": 0.34
+       }
+      },
+      {
+       "color": "#1a1a21",
+       "top": 4435,
+       "hsl": {
+        "h": 240,
+        "s": 0.12,
+        "l": 0.12
+       }
+      },
+      {
+       "color": "#14141c",
+       "top": 4912,
+       "hsl": {
+        "h": 240,
+        "s": 0.17,
+        "l": 0.09
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#ffffff",
+       "share": 0.55
+      },
+      {
+       "color": "#000000",
+       "share": 0.45
+      },
+      {
+       "color": "#e7e5e4",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 23,
+     "inHero": 4,
+     "radius": "pill",
+     "height": 36,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 10,
+     "heroLabels": [
+      "Enter",
+      "Get In Touch",
+      "Explore Exhibition",
+      "About Me"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 7,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 6,
+     "boxRadius": 9,
+     "squareMedia": 18,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 6,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 4912
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "bg-image",
+      "ratio": 1
+     },
+     {
+      "type": "canvas",
+      "ratio": 1
+     },
+     {
+      "type": "img",
+      "ratio": 1
+     }
+    ],
+    "nav": {
+     "links": 0,
+     "fixed": true,
+     "height": 118,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "cinzel",
+     "cormorant garamond",
+     "inter",
+     "playfair display"
+    ]
+   },
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "font-count",
+   "width": 1440,
+   "message": "4 typefaces in use (Inter, -apple-system, Playfair Display, Cormorant Garamond).",
+   "fix": "Two at most: one display, one text. Often one is enough.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "15 different font sizes (12, 13, 14, 15, 16, 18, 19, 20, 24, 30, 36, 48, 72, 96, 101).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "FAIL",
+   "id": "covered-text",
+   "width": 1440,
+   "message": "Large text lies under another element at some scroll position: \"Digital Artifacts & Spatial Code.\" (screen 10, 100% hidden)",
+   "fix": "Nothing may sit on top of a headline or statement. Move the picture, shorten the pinned run, or raise the text above it (z-index) and give it a ground.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "pinned-over-picture",
+   "width": 1440,
+   "message": "Pinned large text slides across pictures while the page scrolls: \"Kevin Mahardika\" (screen 10, 100% over a picture)",
+   "fix": "Jurors read a pinned title crossing drawings or photographs as a collision. Keep the pictures in the column the title does not occupy, or unpin it.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "long-pin",
+   "width": 1440,
+   "message": "The same large text stays on screen for 10 screens in a row: \"Kevin Mahardika\"; \"Digital Artifacts & Spatial Code.\"",
+   "fix": "A pinned element earns two screens, and something must change at each. Shorten the run or give every screen its own content."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/home/kei/Documents/portfolio-3d/.taste-skill/inspect-pass/desktop-fold.jpg",
+   "pages": [
+    "/home/kei/Documents/portfolio-3d/.taste-skill/inspect-pass/desktop-page-01.jpg",
+    "/home/kei/Documents/portfolio-3d/.taste-skill/inspect-pass/desktop-page-02.jpg",
+    "/home/kei/Documents/portfolio-3d/.taste-skill/inspect-pass/desktop-page-03.jpg"
+   ]
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/home/kei/Documents/portfolio-3d/.taste-skill/inspect-pass/tablet-fold.jpg",
+   "pages": [
+    "/home/kei/Documents/portfolio-3d/.taste-skill/inspect-pass/tablet-page-01.jpg",
+    "/home/kei/Documents/portfolio-3d/.taste-skill/inspect-pass/tablet-page-02.jpg"
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/home/kei/Documents/portfolio-3d/.taste-skill/inspect-pass/mobile-fold.jpg",
+   "pages": [
+    "/home/kei/Documents/portfolio-3d/.taste-skill/inspect-pass/mobile-page-01.jpg",
+    "/home/kei/Documents/portfolio-3d/.taste-skill/inspect-pass/mobile-page-02.jpg"
+   ]
+  }
+ ]
+}

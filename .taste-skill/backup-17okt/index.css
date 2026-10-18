@@ -1,0 +1,211 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Makcasa";
+  src: url("/fonts/Makcasa-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --color-putty: #c4c3b6;
+  --color-ink: #000000;
+  --color-bone: #e7e5e4;
+  --color-chalk: #ebebeb;
+  --color-vellum: #dfdcd5;
+  --color-graphite: #595855;
+  --color-ash: #808080;
+  --color-paper: #ffffff;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #c4c3b6;
+}
+::-webkit-scrollbar-thumb {
+  background: #595855;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #000000;
+}
+
+/* Notched geometric corner cuts */
+.notched-card {
+  clip-path: polygon(
+    14px 0%,
+    calc(100% - 14px) 0%,
+    100% 14px,
+    100% calc(100% - 14px),
+    calc(100% - 14px) 100%,
+    14px 100%,
+    0% calc(100% - 14px),
+    0% 14px
+  );
+}
+
+.notched-card-inner {
+  clip-path: polygon(
+    13px 0%,
+    calc(100% - 13px) 0%,
+    100% 13px,
+    100% calc(100% - 13px),
+    calc(100% - 13px) 100%,
+    13px 100%,
+    0% calc(100% - 13px),
+    0% 13px
+  );
+}
+
+/* Hexagon geometry */
+.hexagon {
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+/* Owner portraits: desaturated so any real photograph sits naturally on the
+   putty/ink field. The palette is strictly monochrome — a full-colour ID card
+   photo would break it the moment it loads. */
+.portrait-desat {
+  filter: grayscale(1) contrast(1.04) brightness(1.02);
+}
+
+/* --- Loader background life ---
+   The curtain is a paper field, so it earns its texture from print: a grain,
+   a monumental ghost wordmark (echoing the hero's MAHARDIKA), a slow marquee
+   of credits, and an ink band at the foot that foreshadows the descent into
+   the dark slides. No gradients, no shadows — flat surfaces only. */
+
+.loader-rise {
+  animation: loader-rise 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.15s both;
+}
+
+@keyframes loader-rise {
+  from { opacity: 0; transform: translateY(26px); }
+  to { opacity: 1; transform: none; }
+}
+
+/* Masked line reveal for the loader wordmark: each line sits in an
+   overflow-hidden container and slides up from beneath, giving a
+   typesetting/printing feel rather than a plain fade. */
+.loader-line-mask {
+  overflow: hidden;
+}
+
+.loader-line-inner {
+  display: block;
+  animation: loader-line-rise 1.05s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes loader-line-rise {
+  from { transform: translateY(112%); }
+  to { transform: translateY(0); }
+}
+
+.loader-marquee-track {
+  animation: loader-marquee 26s linear infinite;
+  will-change: transform;
+}
+
+@keyframes loader-marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .loader-rise,
+  .loader-marquee-track,
+  .loader-line-inner {
+    animation: none;
+  }
+}
+
+/* Editorial Serif & Sans helper classes */
+.font-display-serif {
+  font-family: 'Playfair Display', 'Makcasa', 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-editorial-serif {
+  font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+}
+
+.font-classical {
+  font-family: 'Cinzel', 'Playfair Display', serif;
+}
+
+.font-grotesk {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.font-space {
+  font-family: 'Space Grotesk', 'Inter', sans-serif;
+}
+
+/* Smooth slide backdrop blur */
+.glass-panel-light {
+  background: rgba(231, 229, 228, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.glass-panel-dark {
+  background: rgba(10, 10, 14, 0.82);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+/* Pill CTA rule: 28.8px radius, 9px 17px padding, compact capsule */
+.btn-pill {
+  border-radius: 28.8px;
+  padding: 10px 22px;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.btn-pill-dark {
+  background-color: #000000;
+  color: #ffffff;
+}
+.btn-pill-dark:hover {
+  background-color: #262626;
+  transform: translateY(-1px);
+}
+
+.btn-pill-light {
+  background-color: #ffffff;
+  color: #000000;
+}
+.btn-pill-light:hover {
+  background-color: #e7e5e4;
+  transform: translateY(-1px);
+}
+
+.btn-pill-outline {
+  border: 1px solid #000000;
+  background: transparent;
+  color: #000000;
+}
+.btn-pill-outline:hover {
+  background: #000000;
+  color: #ffffff;
+  transform: translateY(-1px);
+}
+
+/* Hairline borders */
+.border-hairline-dark {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+.border-hairline-light {
+  border: 1px solid rgba(255, 255, 255, 0.14);
+}

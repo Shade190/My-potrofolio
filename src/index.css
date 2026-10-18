@@ -1,0 +1,409 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Makcasa";
+  src: url("/fonts/Makcasa-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --color-putty: #c4c3b6;
+  --color-ink: #000000;
+  --color-bone: #e7e5e4;
+  --color-chalk: #ebebeb;
+  --color-vellum: #dfdcd5;
+  --color-graphite: #595855;
+  --color-ash: #808080;
+  --color-paper: #ffffff;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #c4c3b6;
+}
+::-webkit-scrollbar-thumb {
+  background: #595855;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #000000;
+}
+
+/* Notched geometric corner cuts */
+.notched-card {
+  clip-path: polygon(
+    14px 0%,
+    calc(100% - 14px) 0%,
+    100% 14px,
+    100% calc(100% - 14px),
+    calc(100% - 14px) 100%,
+    14px 100%,
+    0% calc(100% - 14px),
+    0% 14px
+  );
+}
+
+.notched-card-inner {
+  clip-path: polygon(
+    13px 0%,
+    calc(100% - 13px) 0%,
+    100% 13px,
+    100% calc(100% - 13px),
+    calc(100% - 13px) 100%,
+    13px 100%,
+    0% calc(100% - 13px),
+    0% 13px
+  );
+}
+
+/* Hexagon geometry */
+.hexagon {
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+/* Owner portraits: desaturated so any real photograph sits naturally on the
+   putty/ink field. The palette is strictly monochrome — a full-colour ID card
+   photo would break it the moment it loads. */
+.portrait-desat {
+  filter: grayscale(1) contrast(1.04) brightness(1.02);
+}
+
+/* The custom cursor's ring. Its position is written by the pointer loop (see
+   CustomCursor.jsx); only the hover growth is a CSS transition, so the browser
+   composites it without React re-rendering anything. */
+.cursor-ring {
+  transition: width 300ms cubic-bezier(0.22, 1, 0.36, 1),
+    height 300ms cubic-bezier(0.22, 1, 0.36, 1), background-color 300ms linear;
+}
+.cursor-ring.cursor-ring-hot {
+  width: 3rem;
+  height: 3rem;
+  background-color: rgb(0 0 0 / 0.05);
+}
+
+/* --- The paint pour -------------------------------------------------------
+   The one deliberate exception to the monochrome palette, and it is opt-in:
+   the visitor presses the bucket icon beside the portrait and the frame is
+   flooded with colour for a moment, after which the photograph itself stands
+   in full colour. Pressing again pours it back to monochrome.
+
+   How it is built, and why:
+   - The colour comes from a single raster "pour" layer (an inline SVG), so the
+     splash is one composite instead of dozens of animated elements.
+   - Every animated property is `opacity`, `transform` or `filter` — all of them
+     composited on the GPU. Nothing here triggers layout or paint on the main
+     thread, which is what keeps the press from hitching.
+   - The photograph's own colour is driven by `filter`, not by swapping sources,
+     so there is no second image to download and no flash of an unloaded frame.
+   - `will-change` is set only while a pour is in flight, then released, so the
+     layer is not held in memory for the life of the page. */
+
+.portrait-frame {
+  /* the photo's transition between mono and colour */
+}
+.portrait-photo {
+  transition: filter 620ms cubic-bezier(0.22, 1, 0.36, 1);
+  transform: translateZ(0);
+}
+.portrait-photo.is-painted {
+  filter: grayscale(0) contrast(1) brightness(1);
+}
+
+/* The splash sheet: flat colour fields that RUN DOWN the frame like paint
+   tipped from the top edge. It is one layer rather than a particle system on
+   purpose — a handful of paths animating their transform is cheap; dozens of
+   nodes are not.
+
+   The motion is what sells it as a pour: the sheet starts just above the photo
+   at a slight tilt and travels down past the bottom edge, with the colour
+   opaque through the middle of the run. The uneven bottom of the artwork is
+   what makes the leading edge read as wet paint rather than a wipe. */
+.portrait-pour {
+  position: absolute;
+  left: -12%;
+  right: -12%;
+  top: -22%;
+  height: 150%;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+.portrait-pour.is-running {
+  animation: portrait-pour 1.05s cubic-bezier(0.45, 0, 0.25, 1) forwards;
+  will-change: opacity, transform;
+}
+
+@keyframes portrait-pour {
+  0%   { opacity: 0;    transform: translate3d(0, -46%, 0) rotate(-4deg); }
+  12%  { opacity: 1; }
+  70%  { opacity: 1; }
+  100% { opacity: 0;    transform: translate3d(0, 40%, 0) rotate(3deg); }
+}
+
+/* The bucket button beside the frame. Flat, square, quiet until hovered — a
+   museum label's mark, not a floating action button. */
+.portrait-paint-btn {
+  transition: transform 220ms cubic-bezier(0.22, 1, 0.36, 1), opacity 220ms linear;
+  will-change: transform;
+}
+.portrait-paint-btn:active {
+  transform: scale(0.94);
+}
+
+/* --- Loader background life ---
+   The curtain is a gallery wall, not a blank page. The site opens on putty and
+   descends into the dark slides, so the loader is the gallery's front room: a
+   putty wall with a hairline of surface pattern, a hand-pinned curator's note,
+   hung works, a wall label, and no decorative wordmark competing with the name.
+   No gradients, no shadows — flat surfaces only. */
+
+.loader-rise {
+  animation: loader-rise 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.15s both;
+}
+
+@keyframes loader-rise {
+  from { opacity: 0; transform: translateY(26px); }
+  to { opacity: 1; transform: none; }
+}
+
+/* Masked line reveal for the loader wordmark: each line sits in an
+   overflow-hidden container and slides up from beneath, giving a
+   typesetting/printing feel rather than a plain fade. */
+.loader-line-mask {
+  overflow: hidden;
+}
+
+.loader-line-inner {
+  display: block;
+  animation: loader-line-rise 1.05s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes loader-line-rise {
+  from { transform: translateY(112%); }
+  to { transform: translateY(0); }
+}
+
+/* Pieces that appear on the wall in sequence, the way a room fills up: each one
+   is hung a beat after the last. Delay is set per-element inline. */
+.loader-hang {
+  animation: loader-hang-in 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes loader-hang-in {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* A wall label slides in from the left edge it is pinned to. */
+.loader-label {
+  animation: loader-label-in 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes loader-label-in {
+  from { opacity: 0; transform: translateX(-10px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+/* The curator's note. It is *pinned* to the wall, so it does not fade in
+   politely — it drops onto the wall a beat after the name has set, the way a
+   hand would slap a note up. The landing overshoots slightly and settles. */
+.loader-note {
+  animation: loader-note-drop 0.62s cubic-bezier(0.34, 1.56, 0.64, 1) 1.15s both;
+}
+
+@keyframes loader-note-drop {
+  from { opacity: 0; transform: translateY(-28px) rotate(-9deg) scale(0.9); }
+  to   { opacity: 1; transform: translateY(0) rotate(-4deg) scale(1); }
+}
+
+/* --- THE FLUSH -------------------------------------------------------------
+   The exit is a toilet flush, in three beats, not one spin:
+
+     1. the SURFACE BREAKS — the water over the plug starts to move; the wall
+        and its pieces begin to turn and drift toward the centre;
+     2. the SWIRL — each piece on the wall is pulled in on its OWN axis, one
+        after another (a per-item `--d` delay), spiralling toward the plughole
+        and shrinking as it goes, so it reads as objects being taken down the
+        drain, not one card on a turntable;
+     3. the GULP — everything left is swallowed fast at the very end, which is
+        the pull you feel when the plug empties.
+
+   `transform-origin` is the page centre, so every piece is drawn to the same
+   plughole rather than to its own middle. */
+.loader-flush {
+  animation: loader-flush 2.4s cubic-bezier(0.5, 0, 0.85, 0.5) forwards;
+  /* Each item waits its turn in the swirl: the delay is set per element. */
+  animation-delay: var(--d, 0s);
+  transform-origin: 50vw 50vh;
+  will-change: transform, opacity;
+}
+
+@keyframes loader-flush {
+  0% {
+    transform: translate(0, 0) rotate(0deg) scale(1);
+    opacity: 1;
+  }
+  /* the surface starts to move — a slow first turn, no travel yet */
+  18% {
+    transform: translate(0, 0) rotate(40deg) scale(0.98);
+    opacity: 1;
+  }
+  /* caught: pulled off its place and swung toward the centre */
+  55% {
+    transform: translate(var(--tx, 0px), var(--ty, 0px)) rotate(200deg) scale(0.62);
+    opacity: 0.95;
+  }
+  /* racing the last of the water down the funnel */
+  82% {
+    transform: translate(calc(var(--tx, 0px) * 1.25), calc(var(--ty, 0px) * 1.25)) rotate(390deg) scale(0.3);
+    opacity: 0.6;
+  }
+  /* the gulp */
+  100% {
+    transform: translate(calc(var(--tx, 0px) * 1.4), calc(var(--ty, 0px) * 1.4)) rotate(520deg) scale(0.04);
+    opacity: 0;
+  }
+}
+
+/* The wall the pieces hang on. It drains a touch behind them and stretches
+   toward the plughole as it goes (scaleY lagging scaleX), which is the funnel a
+   draining surface forms — the water on the floor, going after the objects. */
+.loader-flush-wall {
+  animation: loader-flush-wall 2.4s cubic-bezier(0.55, 0, 0.9, 0.55) forwards;
+  animation-delay: 0.25s;
+  transform-origin: 50vw 50vh;
+  will-change: transform, opacity;
+}
+
+@keyframes loader-flush-wall {
+  0%   { transform: scale(1) rotate(0deg); opacity: 1; }
+  30%  { transform: scale(0.985) rotate(30deg); opacity: 1; }
+  70%  { transform: scaleX(0.6) scaleY(0.72) rotate(180deg); opacity: 0.9; }
+  100% { transform: scaleX(0.03) scaleY(0.05) rotate(300deg); opacity: 0; }
+}
+
+/* --- THE DOORS -------------------------------------------------------------
+   Once the room is drained, what is left is the gallery entrance: two doors.
+   They swing open away from the viewer (the museum opening for the day),
+   hinged at the outer edges, with a little perspective so they read as doors
+   and not as a split image. Two doors, so two keyframes, and the room behind is
+   uncovered left-to-right from the centre seam. */
+.loader-door {
+  animation: loader-door-open 1.05s cubic-bezier(0.65, 0, 0.35, 1) both;
+  backface-visibility: hidden;
+  will-change: transform, opacity;
+}
+
+@keyframes loader-door-open {
+  0%   { transform: perspective(1600px) rotateY(0deg); opacity: 1; }
+  100% { transform: perspective(1600px) rotateY(-86deg); opacity: 0.15; }
+}
+
+.loader-door-right {
+  animation: loader-door-open-right 1.05s cubic-bezier(0.65, 0, 0.35, 1) both;
+  backface-visibility: hidden;
+  will-change: transform, opacity;
+}
+
+@keyframes loader-door-open-right {
+  0%   { transform: perspective(1600px) rotateY(0deg); opacity: 1; }
+  100% { transform: perspective(1600px) rotateY(86deg); opacity: 0.15; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .loader-rise,
+  .loader-line-inner,
+  .loader-hang,
+  .loader-label {
+    animation: none;
+  }
+  /* No spin for reduced-motion: the note simply appears, and the curtain
+     leaves with a plain fade handled inline. */
+  .loader-note {
+    animation: none;
+  }
+  .loader-flush,
+  .loader-flush-wall,
+  .loader-door,
+  .loader-door-right {
+    animation: none;
+  }
+}
+
+/* Editorial Serif & Sans helper classes */
+.font-display-serif {
+  font-family: 'Playfair Display', 'Makcasa', 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-editorial-serif {
+  font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+}
+
+.font-classical {
+  font-family: 'Cinzel', 'Playfair Display', serif;
+}
+
+.font-grotesk {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.font-space {
+  font-family: 'Space Grotesk', 'Inter', sans-serif;
+}
+
+/* Pill CTA rule: 28.8px radius, 9px 17px padding, compact capsule */
+.btn-pill {
+  border-radius: 28.8px;
+  padding: 10px 22px;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.btn-pill-dark {
+  background-color: #000000;
+  color: #ffffff;
+}
+.btn-pill-dark:hover {
+  background-color: #262626;
+  transform: translateY(-1px);
+}
+
+.btn-pill-light {
+  background-color: #ffffff;
+  color: #000000;
+}
+.btn-pill-light:hover {
+  background-color: #e7e5e4;
+  transform: translateY(-1px);
+}
+
+.btn-pill-outline {
+  border: 1px solid #000000;
+  background: transparent;
+  color: #000000;
+}
+.btn-pill-outline:hover {
+  background: #000000;
+  color: #ffffff;
+  transform: translateY(-1px);
+}
+
+/* Hairline borders */
+.border-hairline-dark {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+.border-hairline-light {
+  border: 1px solid rgba(255, 255, 255, 0.14);
+}
